@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(172, 233, 255);
+    gap: 75px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: rgb(245, 158, 44);
+}
+nav a svg {
+    margin-right: 5px;
+}

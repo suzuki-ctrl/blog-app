@@ -1,0 +1,43 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.homeContents {
+    width: 600px;
+    height: auto;
+    max-height: 600px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.homeHeader h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+.homeText {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.homeFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.homeItems p {
+    margin: 0;
+}
+
+.homeFlex button:first-child {
+    margin-right: 8px;
+}
