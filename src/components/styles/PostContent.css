@@ -5,17 +5,21 @@
     align-items: center;
 }
 .postcontentContain {
-    width: 600px;
+    width: 800px;
     height: 80vh;
     max-height: 600px;
     background-color: white;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    position: relative;
+    overflow-y: scroll;
+    text-align: center;
 }
 .postcontentContain p {
     margin: 0;
+    text-align: left;
+}
+.postcontentContain .postcontent-text {
     white-space: pre-wrap;
 }
 .postcontentContain h1 {
@@ -26,8 +30,8 @@
     margin-top: 10px;
 }
 .postcontentContain button {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.postcontentContain a {
+    text-decoration: none;
 }
