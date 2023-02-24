@@ -25,16 +25,16 @@ const PostContent = ({ postList, setPostList }) => {
       .map((post) => (
         <div key={post.id} className="postcontentContain">
           <p>投稿者：{post.author.username}</p>
-          <span>
+          <p>
             投稿日：{new Date(post.modDate).toLocaleDateString("ja-JP", {
             year: "numeric",
             month: "2-digit",
             day: "2-digit",
           })}
-          </span>
+          </p>
           <h1>{post.title}</h1>
           <hr />
-          <p>{post.text}</p>
+          <p className='postcontent-text'>{post.text}</p>
           <Link to="/">
           <Btn>←ホームに戻る</Btn>
           </Link>
